@@ -1,6 +1,11 @@
 # The URL the site will be built for
 base_url = "https://matthew.rijalburke.com"
-
+title="Matthew Burke"
+theme = "even"
+taxonomies = [
+    { name = "categories", feed=true },
+    { name = "tags" ,feed=true},
+]
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -14,3 +19,10 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+even_menu = [
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+]
+katex_enable = true
+katex_auto_render = true
+even_title="Matthew Burke"
