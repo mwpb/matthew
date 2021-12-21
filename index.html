@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Burke</title>
+    <meta
+      name="description"
+      content="Personal webpage of Matthew Burke: mathematician and software developer"
+    />
+  </head>
+  <style>
+    body {
+      max-width: 600px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    div,
+    a {
+      font-family: sans-serif;
+      color: #373d3f;
+    }
+
+    .title {
+      font-family: serif;
+      font-size: 40px;
+      text-decoration: none;
+      margin: 10px;
+      text-align: start;
+    }
+
+    .contactRow {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .contactRow * {
+      height: 32px;
+      margin: 5px;
+    }
+  </style>
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+      "
+    >
+      <div class="title">Matthew Burke</div>
+      <img src="./static/photo30.png" alt="Matthew Burke" />
+      <div>Mathematician and software developer.</div>
+      <a href="./static/cv.html">Curriculum vitae</a>
+      <!-- <a href="./static/index.html">Writing</a> -->
+      <div class="contactRow">
+        <a onclick="toggleEmail();"
+          ><img src="./static/emailIcon.svg" alt="Email"
+        /></a>
+        <a href="https://github.com/mwpb"
+          ><img src="./static/GH-Mark-64px.png" alt="Github"
+        /></a>
+        <a href="https://www.linkedin.com/in/mwpb"
+          ><img src="./static/LI-In-Bug.png" alt="LinkedIn"
+        /></a>
+      </div>
+      <div id="emailDiv">
+        matthewpatrickburke<span style="display: none">$%tefsdjj67</span
+        >@gmail.com
+      </div>
+    </div>
+    <script>
+      let emailShown = true;
+      toggleEmail = () => {
+        let emailDiv = document.getElementById("emailDiv");
+        emailShown = !emailShown;
+        emailDiv.style.display = emailShown ? "block" : "none";
+        window.scrollTo(0, document.body.scrollHeight);
+      };
+      toggleEmail();
+    </script>
+  </body>
+</html>
