@@ -21,7 +21,7 @@ Bachelor's degree in Mathematics (BA) 2007-2010
 **Feb 2022 - Present: Cambridge Quantum**  
 Software developer
 
-- Collaborated with two software development teams to design and implement an authentication system taking into account users from two existing systems. Used AWS Cognito, FastAPI and HTMX.
+- Collaborated with two software development teams to design and implement an authentication system taking into account users from two existing systems. Used AWS Cognito, FastAPI and HTMX. Included local accounts, MFA and Federated identities.
 - Developed pipeline for automated benchmarks, notification emails and a website to view results. Created library for compiler developers to benchmark experimental code. Used Python venvs, FastAPI and HTMX.
 - Created development environments using Docker Compose and Kubernetes both locally and on Azure VMs.
 - Helped migrate Kubernetes clusters from Azure AKS to AWS EKS. Set up ingress, automated SSL certificates, automated CNAME records and realtime PostgreSQL database replication. Used Terraform and psql CLI.
