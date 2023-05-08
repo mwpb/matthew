@@ -34,6 +34,12 @@ Senior software developer (11 months); Director of technology (13 months)
 - Created a local development environment for an existing Java web application. Used Docker, NGINX and Firejail to locally develop features that spanned multiple production servers.
 - Constructed a Web API for automatically scheduling examinations. Used Java Servlets and MySQL.
 
+**Aug 2019: Cyber Data Science Fellowship**
+Data science fellow
+
+- Collaborated with an industry partner to clean, explore and analyse 7 years of live events data stored in a PostgreSQL database with over 13 million entries.
+- Constructed a generalised linear model (GLM) for analysing count data and a log linear model for analysing sales data. Used Python scripts, Jupyter notebooks and the R programming language.
+
 **Sep 2017-Sep 2019: University of Calgary**  
 Postdoctoral scholar
 
