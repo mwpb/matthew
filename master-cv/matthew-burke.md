@@ -18,9 +18,10 @@ Bachelor's degree in Mathematics (BA) 2007-2010
 
 ## Work experience
 
-**Feb 2022 - Present: Cambridge Quantum**  
+**Feb 2022 - Present: Quantinuum (prev. Cambridge Quantum Computing)**  
 Software developer
 
+- Designed, developed and maintained a metering and billing system. Included setting up infrastructure to record meter readings, custom aggregates and quota guard checks.
 - Collaborated with two software development teams to design and implement an authentication system taking into account users from two existing systems. Used AWS Cognito, FastAPI and HTMX. Included local accounts, MFA and Federated identities.
 - Developed pipeline for automated benchmarks, notification emails and a website to view results. Created library for compiler developers to benchmark experimental code. Used Python venvs, FastAPI and HTMX.
 - Created development environments using Docker Compose and Kubernetes both locally and on Azure VMs.
@@ -60,9 +61,8 @@ Software engineer (5 months); Chief technology officer (9 months)
 
 ## Projects
 
+- **Mathsolio** (<https://mathsolio.com>) Interactive games and training for various mathematical techniques. Uses AWS Lambda, DynamoDB, SvelteKit and SST (Serverless Stack deployment framework).
 - **Fog of war chess:** (<https://fogofwarchess.com>) Play a variant of chess in which the players can only see squares to which they can move.
   Uses Next.js, Docker Compose, Caddy, MongoDB and an Oracle Cloud VPS.
 - **Advent of code:** (<https://github.com/mwpb/adventOfCode2019>) Java solutions to all problems in the 2019 advent of code.
 - **Colimits in Coq:** (<https://github.com/mwpb/postulated-colimits-in-coq>). Computer verification of a result in category theory using the coq proof assistant.
-- **Cryptopals challenges:** (<https://github.com/mwpb/matasano-go>) Solutions written in Go. First three sets completed.
-- **Kaggle Box Office Predictions:** (<https://github.com/mwpb/kaggle-projects>) Competition to predict the revenue of films. Uses IPython and Google Colab.
